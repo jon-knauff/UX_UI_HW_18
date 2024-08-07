@@ -140,6 +140,14 @@ body {
     background-color:black;
 
 }
+button {
+    background-color:black;
+    color:white;
+    padding:15px 32px;
+    border:none;
+    font-family:'Space Grotesk';
+    border-radius: 25px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 
 
 @media screen and (max-width: 600px) {
