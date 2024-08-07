@@ -51,6 +51,7 @@ body {
     grid-row-end:3;
     grid-column-start: 2;
     grid-column-end:4;
+    float:right;
 
 }
 .content {
@@ -63,6 +64,7 @@ body {
     grid-row-end:3;
     grid-column-start: 1;
     grid-column-end:2;
+    float:left;
 }
 .slogan {
     padding:10px;
@@ -217,6 +219,7 @@ button {
         width:300px;
         margin:0px;
         padding:0px;
+        float:right;
     }
     .bottom {
         display:flex;
@@ -231,6 +234,7 @@ button {
         margin-left: 0%;
         margin-right: 0%;
         margin-top:0px;
+        float:left;
     }
     .otherSkills {
         flex-direction:column;
@@ -247,7 +251,7 @@ button {
     }
     .logo {
         position:absolute;
-        display:none;
+        
     }
     .button {
         display:none;
