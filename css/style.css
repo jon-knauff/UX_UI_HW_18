@@ -110,6 +110,12 @@ body {
     width:33%;
     text-align:center;
 }
+.otherSkills {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    padding:10px;
+    margin:20px 15%;
+}
 .mySkills {
     color:#fff;
 }
@@ -148,6 +154,7 @@ button {
     font-family:'Space Grotesk';
     border-radius: 25px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
 
 
 @media screen and (max-width: 600px) {
@@ -176,6 +183,9 @@ button {
         width:100%;
     }
     .bottom {
+        grid-template-columns: 100%;
+    }
+    .otherSkills {
         grid-template-columns: 100%;
     }
 }
