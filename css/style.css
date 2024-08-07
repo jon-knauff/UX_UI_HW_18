@@ -84,7 +84,7 @@ body {
 .button {
     text-align:right;
     padding:30px;
-    position:absolute;
+    position:fixed;
     top:0;
     right:0;
 }
@@ -94,7 +94,7 @@ body {
     flex-direction:row;
     color:#fff;
     margin:20px 15%;
-    padding:10px;
+    padding:20px;
     justify-content:space-evenly;
 }
 .figma {
@@ -203,5 +203,15 @@ button {
     }
     .otherSkills2 {
         width:100%;
+    }
+    .inline-block {
+        display:none;
+    }
+    .logo {
+        position:absolute;
+    }
+    .button {
+        position:absolute;
+        justify-items:center;
     }
 }
